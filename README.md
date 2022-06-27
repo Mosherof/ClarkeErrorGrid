@@ -45,8 +45,21 @@ SYNTAX:
         plot, zone = ClarkeErrorGrid.clarke_error_grid(ref_values, pred_values)
 
 INPUT:
-        ref_values          List of n reference values
-        pred_values         List of n prediciton values
+        ref_values          List of n reference values\
+        pred_values         List of n prediciton values\
+        title_string        Name of Graph (str)\
+        xlabel              Title x-axis (optional, str)\
+        ylabel              Title y-axis (optional, str)\
+        scatter_c           Change color of data points (optional, str)\
+        a_color             Change color of Zone A (optional, str)\
+        b_color             Change color of Zone B (optional, str)\
+        c_color             Change color of Zone C (optional, str)\
+        d_color             Change color of Zone D (optional, str)\
+        e_color             Change color of Zone E (optional, str)\
+        border_color        Change color of Zone borders (optional, str)\
+        regression_color    Change color of regression line (optional, str)\
+        scatter_opacity     Change opacity of data points (optional, float)\
+        back_opacity        Change opacity of zones (optional, float)
 
 OUTPUT:
         plot                The Clarke Error Grid Plot returned by the function.
