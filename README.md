@@ -59,7 +59,7 @@ INPUT:
         border_color        Change color of Zone borders (optional, str)\
         regression_color    Change color of regression line (optional, str)\
         scatter_opacity     Change opacity of data points (optional, float)\
-        back_opacity        Change opacity of zones (optional, float)\
+        back_opacity        Change opacity of zones (optional, float)
 
 OUTPUT:
         plot                The Clarke Error Grid Plot returned by the function.
